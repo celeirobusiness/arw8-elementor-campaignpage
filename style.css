@@ -1,0 +1,40 @@
+/* Add Custom CSS after this line */
+
+.full-width {
+	width: 100%;
+}
+
+.site-inner {
+    max-width: 100%;
+}
+
+.site-content {
+    padding: 0;
+}
+
+header#masthead,
+footer#colophon {
+	margin: 0 auto;
+	max-width: 1320px;
+}
+ 
+.entry-content {
+		margin-right: auto;
+		margin-left: auto;
+}
+
+
+@media screen and (min-width: 56.875em) {
+
+	.entry-content {
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+
+@media screen and (min-width: 44.375em) {
+
+	.entry-content {
+		margin-right: auto;
+	}
+}
